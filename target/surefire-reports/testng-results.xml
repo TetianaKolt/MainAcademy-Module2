@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="87" started-at="2023-01-19T13:19:35Z" finished-at="2023-01-19T13:19:35Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="87" started-at="2023-01-19T13:19:35Z" finished-at="2023-01-19T13:19:35Z">
+      <class name="mediumTests.MediumTestClass">
+        <test-method status="PASS" signature="testAverageValue()[pri:0, instance:mediumTests.MediumTestClass@2752f6e2]" name="testAverageValue" duration-ms="1" started-at="2023-01-19T13:19:35Z" finished-at="2023-01-19T13:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAverageValue -->
+        <test-method status="PASS" signature="testBiggestValue()[pri:0, instance:mediumTests.MediumTestClass@2752f6e2]" name="testBiggestValue" duration-ms="1" started-at="2023-01-19T13:19:35Z" finished-at="2023-01-19T13:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBiggestValue -->
+        <test-method status="PASS" signature="testEvenOrOdd()[pri:0, instance:mediumTests.MediumTestClass@2752f6e2]" name="testEvenOrOdd" duration-ms="1" started-at="2023-01-19T13:19:35Z" finished-at="2023-01-19T13:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEvenOrOdd -->
+      </class> <!-- mediumTests.MediumTestClass -->
+      <class name="hardTests.HardTestClass">
+        <test-method status="PASS" signature="testDivideByZeroCase()[pri:0, instance:hardTests.HardTestClass@6b71769e]" name="testDivideByZeroCase" duration-ms="25" started-at="2023-01-19T13:19:35Z" finished-at="2023-01-19T13:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivideByZeroCase -->
+        <test-method status="PASS" signature="testSumOfMultipleParams()[pri:0, instance:hardTests.HardTestClass@6b71769e]" name="testSumOfMultipleParams" duration-ms="0" started-at="2023-01-19T13:19:35Z" finished-at="2023-01-19T13:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSumOfMultipleParams -->
+      </class> <!-- hardTests.HardTestClass -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

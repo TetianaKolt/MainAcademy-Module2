@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Testing Calculator">
+
+    <test name="Hard Tests">
+
+        <classes>
+            <class name="hardTests.HardTestClass"/>
+        </classes>
+    </test>
+
+    <test name="Medium Tests">
+        <groups>
+            <run>
+                <include name="Regression"/>
+                <include name="Smoke"></include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="mediumTests.MediumTestClass"/>
+        </classes>
+
+    </test>
+
+    <test name="Simple Tests">
+        <groups>
+            <run>
+                <include name="Regression"></include>
+                <include name="Smoke"></include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="simpleTests.SimpleTestClass"/>
+        </classes>
+
+    </test>
+
+
+</suite> <!-- Suite -->
+
