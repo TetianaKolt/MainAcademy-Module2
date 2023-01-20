@@ -81,7 +81,10 @@ public class Calculator {
         return a/b;
     }
     
-    /////Add a method which will count percent
+   public double getPercentCount(double yourNumber, double percent) {
+        
+        return 0;
+    }
 }
 
 
