@@ -35,8 +35,8 @@ public class HardTestClass {
     @Test
     public void testGetPercentCount(){
         double number = 200;
-        double percent = 15;
-        double expectedResult = 30;
+        double percent = 1;
+        double expectedResult = 20;
         double actualResult = calc.getPercentCount(number,percent);
         Assert.assertEquals(actualResult, expectedResult, "When calculating "+percent+" percent of "+ number+", the result is "+expectedResult);
     }
