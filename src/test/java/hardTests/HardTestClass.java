@@ -16,7 +16,8 @@ public class HardTestClass {
         double b = 0;
         double expectedResult = -100;
         double actualResult = calc.divideByZeroCase(a, b);
-        Assert.assertEquals(actualResult, expectedResult, "When dividing " + a + " on " + b + " expected result is " + expectedResult);
+        Assert.assertEquals(actualResult, expectedResult,
+                "When dividing " + a + " on " + b + " expected result is " + expectedResult);
     }
 
 
@@ -29,7 +30,8 @@ public class HardTestClass {
         int c = 10;
         int expectedResult = 20;
         int actualResult = calc.sumOfMultipleParams(a, b, c);
-        Assert.assertEquals(actualResult, expectedResult, "When adding " + a + " " + b +" and " +c+ " expected result is " + expectedResult);
+        Assert.assertEquals(actualResult, expectedResult,
+                "When adding " + a + " " + b +" and " +c+ " expected result is " + expectedResult);
     }
     
     @Test
@@ -38,6 +40,7 @@ public class HardTestClass {
         double percent = 15;
         double expectedResult = 15;
         double actualResult = calc.getPercentCount(number,percent);
-        Assert.assertEquals(actualResult, expectedResult, "When calculating "+percent+" percent of "+ number+", the result is "+expectedResult);
+        Assert.assertEquals(actualResult, expectedResult,
+                "When calculating "+percent+" percent of "+ number+", the result is "+expectedResult);
     }
 }
