@@ -82,8 +82,8 @@ public class Calculator {
     }
     
    public double getPercentCount(double yourNumber, double percent) {
-        
-        return 0;
+        double percentOfYourNumber = (yourNumber*percent)/100;
+        return percentOfYourNumber;
     }
 }
 
